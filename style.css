@@ -2,94 +2,104 @@
 	margin-left: auto;
 	margin-right: auto;
   }
-
- #container{width: 70%;
+#container{
+ 			width: 70%;
  			height: 1200px;
- 			
  			background-image: url("bg3.png");
  			background-repeat: no-repeat;
  			}
-
-
-  #header{width: 100%;
+#header{
+  		width: 100%;
   		height: 120px;
-  	background-color:#ffffff;
-  	overflow: visible; 
-  	border: 1px solid white;}
- 
+  		background-color:#ffffff;
+  		overflow: visible; 
+  		border: 1px solid white;
+  		}
+ #logo{
+  		float: left;
+  		margin-top: 3%;
+  		margin-left: 1%;
+  	}
 
-  #logo{float: left;
-  	margin-top: 3%;
-  	margin-left: 1%;}
-
-#navbar ul li{list-style-type: none;
-			display: inline-block;
-			float: right;
-			padding-right: 1%;
-			margin-top: 5%;
-			font-family: "Lato";
-			color: #787878;
-			font-weight: bold;}
+#navbar ul li{
+				list-style-type: none;
+				display: inline-block;
+				float: right;
+				padding-right: 1%;
+				margin-top: 5%;
+				font-family: "Lato";
+				color: #787878;
+				font-weight: bold;
+			}
 
 
-#main {width: 103%;
+#main {
+		width: 103%;
 		height: 380px;
 		margin-top: 5%;
-		
-
-
-	}
-.image{width: 22%;
+		}
+.image{
+		width: 22%;
 		height: 300px;
 		float: left;
 		margin-left: 1%;
 		margin-right: 1%;
 		}
-.text{position: relative;
+.text{	position: relative;
 		left: 10px;
 		z-index: 1;
 		bottom: 330px;
-	
-}
+	}
 
-.text p {font-family: "Lato" sans-serif;
+.text p {
+		font-family: "Lato" sans-serif;
 		font-size: 34px;
-		color: #ffffff;}
+		color: #ffffff;
+		}
 
-.date {margin-top: 240px;
+.date {
+		margin-top: 240px;
 		margin-left: 140px;
 		font-family: "Lato";
 		font-size: 11px;
 		color:#c2c2c2;
-		opacity: 0.5; }
+		opacity: 0.5; 
+	}
 
 
-#container h2 {margin-left: 26%;
-					font-family: "Lato" sans-serif;
-					color: #ffffff;
-					font-size: 34px;
+#container h2 {
+				margin-left: 26%;
+				font-family: "Lato" sans-serif;
+				color: #ffffff;
+				font-size: 34px;
 
 				}
 
-#container p {font-family: "Lato" sans-serif;
-			color: #c2c2c2;
-		text-align: justify;
-	text-indent: 50px;
-line-height: 70%;}
+#container p {
+				font-family: "Lato" sans-serif;
+				color: #c2c2c2;
+				text-align: justify;
+				text-indent: 50px;
+				line-height: 70%;
+			}
 
 
 
-#footer{width: 100%;
+#footer{
+		width: 100%;
 		height: 200px;
-		
-		margin-top: 150px;}
+		margin-top: 150px;
+		}
 
-#footer span {float: left;
+#footer span {
+				float: left;
 				font-family: "Lato" sans-serif;
 				font-size: 11px;
 				color: #c2c2c2;
 				margin-left: 3%;
 			}
-#footer span:last-child{float: right;
-						margin-right: 3%;}
+#footer span:last-child{
+						float: right;
+						margin-right: 3%;
+						}
 
